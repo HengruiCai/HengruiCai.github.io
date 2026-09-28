@@ -1,0 +1,17 @@
+#publications .publication-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .35rem;
+  margin: .35rem 0 .7rem;
+}
+
+#publications .publication-tag {
+  display: inline-block;
+  padding: .16rem .55rem;
+  border: 1px solid #b9d2e8;
+  border-radius: 999px;
+  background: #edf5fc;
+  color: #195587;
+  font-size: .78rem;
+  line-height: 1.5;
+}
