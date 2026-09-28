@@ -1,0 +1,48 @@
+/* Static topic badges. Each tag has a stable color; no filtering script is used. */
+#publications .publication-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .35rem;
+  margin: .35rem 0 .7rem;
+}
+
+#publications .publication-tag {
+  display: inline-block;
+  padding: .16rem .55rem;
+  border: 1px solid hsl(var(--tag-h, 210), 58%, 70%);
+  border-radius: 999px;
+  background: hsl(var(--tag-h, 210), 78%, 89%);
+  color: hsl(var(--tag-h, 210), 62%, 24%);
+  font-size: .78rem;
+  line-height: 1.5;
+}
+
+#publications .publication-tag--action-selection { --tag-h: 12; }
+#publications .publication-tag--causal-graphs { --tag-h: 150; }
+#publications .publication-tag--causal-inference { --tag-h: 287; }
+#publications .publication-tag--causal-reasoning { --tag-h: 65; }
+#publications .publication-tag--conformal-inference { --tag-h: 202; }
+#publications .publication-tag--continuous-treatments { --tag-h: 340; }
+#publications .publication-tag--decision-making { --tag-h: 117; }
+#publications .publication-tag--evaluation { --tag-h: 255; }
+#publications .publication-tag--explainability { --tag-h: 32; }
+#publications .publication-tag--healthcare { --tag-h: 170; }
+#publications .publication-tag--interference { --tag-h: 307; }
+#publications .publication-tag--llm { --tag-h: 85; }
+#publications .publication-tag--llm-alignment { --tag-h: 222; }
+#publications .publication-tag--matrix-games { --tag-h: 360; }
+#publications .publication-tag--mediation { --tag-h: 137; }
+#publications .publication-tag--off-policy-evaluation { --tag-h: 275; }
+#publications .publication-tag--online-learning { --tag-h: 52; }
+#publications .publication-tag--optimal-transport { --tag-h: 190; }
+#publications .publication-tag--peer-review { --tag-h: 327; }
+#publications .publication-tag--policy-evaluation { --tag-h: 105; }
+#publications .publication-tag--policy-learning { --tag-h: 242; }
+#publications .publication-tag--preference-learning { --tag-h: 20; }
+#publications .publication-tag--reinforcement-learning { --tag-h: 157; }
+#publications .publication-tag--routing { --tag-h: 295; }
+#publications .publication-tag--subgroup-identification { --tag-h: 72; }
+#publications .publication-tag--survey { --tag-h: 210; }
+#publications .publication-tag--text-rationalization { --tag-h: 347; }
+#publications .publication-tag--treatment-effects { --tag-h: 125; }
+#publications .publication-tag--variable-selection { --tag-h: 262; }
