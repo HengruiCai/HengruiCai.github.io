@@ -1,0 +1,54 @@
+/* Static research-topic badges; recurring tags keep their colors. */
+#publications .publication-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .35rem;
+  margin: .35rem 0 .7rem;
+}
+
+#publications .publication-tag {
+  display: inline-block;
+  padding: .16rem .55rem;
+  border: 1px solid hsl(var(--tag-h, 210), 58%, 70%);
+  border-radius: 999px;
+  background: hsl(var(--tag-h, 210), 78%, 89%);
+  color: hsl(var(--tag-h, 210), 62%, 24%);
+  font-size: .78rem;
+  line-height: 1.5;
+}
+
+#publications .publication-tag--ai-auditing { --tag-h: 12; }
+#publications .publication-tag--action-selection { --tag-h: 150; }
+#publications .publication-tag--bandits { --tag-h: 287; }
+#publications .publication-tag--causal-decision-making { --tag-h: 65; }
+#publications .publication-tag--causal-inference { --tag-h: 202; }
+#publications .publication-tag--causal-reasoning { --tag-h: 340; }
+#publications .publication-tag--causal-structure-learning { --tag-h: 117; }
+#publications .publication-tag--complex-feedback { --tag-h: 255; }
+#publications .publication-tag--continuous-treatments { --tag-h: 32; }
+#publications .publication-tag--explainable-ai { --tag-h: 170; }
+#publications .publication-tag--feature-selection { --tag-h: 307; }
+#publications .publication-tag--heterogeneous-treatment-effects { --tag-h: 85; }
+#publications .publication-tag--individual-treatment-effects { --tag-h: 222; }
+#publications .publication-tag--individualized-decision-making { --tag-h: 0; }
+#publications .publication-tag--interference { --tag-h: 137; }
+#publications .publication-tag--llm-agents { --tag-h: 275; }
+#publications .publication-tag--llm-alignment { --tag-h: 52; }
+#publications .publication-tag--llm-evaluation { --tag-h: 190; }
+#publications .publication-tag--mediation-analysis { --tag-h: 327; }
+#publications .publication-tag--nlp { --tag-h: 105; }
+#publications .publication-tag--off-policy-evaluation { --tag-h: 242; }
+#publications .publication-tag--on-policy-distillation { --tag-h: 20; }
+#publications .publication-tag--online-learning { --tag-h: 157; }
+#publications .publication-tag--policy-evaluation { --tag-h: 295; }
+#publications .publication-tag--policy-learning { --tag-h: 72; }
+#publications .publication-tag--policy-optimization { --tag-h: 210; }
+#publications .publication-tag--precision-medicine { --tag-h: 347; }
+#publications .publication-tag--preference-learning { --tag-h: 125; }
+#publications .publication-tag--reinforcement-learning { --tag-h: 262; }
+#publications .publication-tag--robust-estimation { --tag-h: 40; }
+#publications .publication-tag--robust-optimization { --tag-h: 177; }
+#publications .publication-tag--statistical-inference { --tag-h: 315; }
+#publications .publication-tag--trustworthy-ai { --tag-h: 92; }
+#publications .publication-tag--uncertainty-quantification { --tag-h: 230; }
+#publications .publication-tag--variable-selection { --tag-h: 7; }
